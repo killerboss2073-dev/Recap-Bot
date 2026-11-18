@@ -7,8 +7,8 @@ import fs from 'fs';
 import path from 'path';
 
 // Token နှင့် API Key များ တိုက်ရိုက်ထည့်သွင်းထားပါသည်
-const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '7702776807:AAG5R58PHAE-3SsTt0m5cCqGt6vqk9GGHoM';
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'AQ.Ab8RN6K8KTkVrcALrH42FoFi49xcSYc6hVLtxMuay88wBGCOcg';
+const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const PORT = process.env.PORT || 3000;
 
 const bot = new Telegraf(BOT_TOKEN);
