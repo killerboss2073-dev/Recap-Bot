@@ -1,0 +1,8 @@
+"scripts": {
+    "dev": "tsx server.ts",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node bot.js",
+    "clean": "rm -rf dist server.js",
+    "lint": "tsc --noEmit"
+  },
